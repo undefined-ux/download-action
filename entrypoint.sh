@@ -34,7 +34,7 @@ if [ ! -d ${target} ];then
 fi
 
 cd ${target}
-start=`ls -l |grep "^d"|wc -l`
+start="ALL/V4-vocaloids/Luo_TianyiV4\nALL/V3-vocaloids/Yuezheng_Ling\nALL/V4-Editor"
 i=1
 
 for each in ${urls[@]}
