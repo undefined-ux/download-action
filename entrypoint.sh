@@ -34,7 +34,9 @@ if [ ! -d ${target} ];then
 fi
 
 cd ${target}
-start="ALL/V4-vocaloids/Luo_TianyiV4\nALL/V3-vocaloids/Yuezheng_Ling\nALL/V4-Editor"
+start="ALL/V4-vocaloids/Luo_TianyiV4
+ALL/V3-vocaloids/Yuezheng_Ling
+ALL/V4-Editor"
 i=1
 
 for each in ${urls[@]}
